@@ -1,0 +1,85 @@
+body{
+    background-image: url("pexels-albin-biju-3831422.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+/* --------------navbar----------------- */
+ul{
+    margin-left: auto;
+}
+.brand-logo{
+    padding-top: 10px;
+}
+.navbar-toggler,.brand-logo,.list-group-item{
+    color: #9CFF26;
+}
+i:hover{
+    color: rgb(252, 246, 246);
+}
+.nav-link:hover{
+    color: #9dff26bf;
+}
+.nav-link{
+    margin-left: 15px;
+}
+/* --------------------hero------------- */
+.row{
+    height: 89vh;
+}
+.col-10{
+    color: white;
+}
+.gg-facebook:hover{
+    color: #3B44F6;
+}
+.gg-instagram:hover {
+    color:#E4508F;
+}
+.gg-twitter:hover {
+    color: #2192FF;
+}
+.gg-mail:hover {
+    color: #EB5353;
+}
+.list-group-item{
+    background-color:transparent;
+    border: none;
+}
+.list-group{
+    padding-top: 20vh;
+    width: 50px;
+    margin-left: auto;
+}
+h6{
+    padding-top: 20vh;
+}
+/*------------------- Buttons------------ */
+.btn{
+    padding-left: 20px;
+    padding-right:20px;
+    margin-top: 10px;
+}
+.btn-right{
+    margin-left: 10px;
+}
+.btn-left::after {
+    content: "Explore";
+}
+.btn-left:hover::after {
+    content: "Explore >>>";
+}
+/* ---------------------------------------------- */
+.new{
+    height: 100vh;
+    background-color: #040403;
+}
+.new h3{
+    padding-left: 40vh;
+    padding-top: 40vh;
+    color: rgb(255, 255, 255);
+}
+
+
+
