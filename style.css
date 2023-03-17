@@ -1,5 +1,6 @@
-body{
-    background-image: url("pexels-albin-biju-3831422.jpg");
+
+.bdy{
+background-image: url("pexels-albin-biju-3831422.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
