@@ -101,7 +101,7 @@ padding-top: 20vh;
 @media (min-width: 769px) {
     .carousel-item {
         background-color: black;
-        height: 70vh;
+        height: 90vh;
         padding-top: 20vh;
     }
 }
@@ -110,9 +110,29 @@ padding-top: 20vh;
     color: white;
 }
 .team-img{
-    width: 25%;
+    width: 40%;
     border-radius: 100%;
 }
+.team-h{
+    margin-top: 20px;
+}
+/* =================== */
+
+.hire-us{
+    color: #9CFF26;
+    height: 50vh;
+    background-color: black;
+    text-align: center;
+    padding-top: 15vh;
+}
+.hire-us p{
+    color: white;
+margin: 0;
+padding: 0;
+}
+
+
+
 
 
 
