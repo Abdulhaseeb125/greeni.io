@@ -1,11 +1,9 @@
-
 body{
-background-image: url("pexels-albin-biju-3831422.jpg");
+    background-image: url("pexels-albin-biju-3831422.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-    
 }
 /* --------------navbar----------------- */
 ul{
@@ -73,6 +71,48 @@ h6{
     content: "Explore >>>";
 }
 /* ---------------------------------------------- */
+@media (max-width: 768px){
+    .second-s {
+        background-color: black;
+        height:50vh;
+        color: rgb(255, 255, 255);
+    }
+}
+@media (min-width: 769px){
+.second-s{
+    background-color: black;
+    height: 60vh;
+    color: rgb(255, 255, 255);
+}
+}
+.wwed-c{
+    padding-top: 20vh;
+    text-align: center;
+    width: 80%;
+}
+/* ================================== */
+@media (max-width: 768px) {
+.carousel-item{
+background-color:black;
+height: 60vh;
+padding-top: 20vh;
+}
+}
+@media (min-width: 769px) {
+    .carousel-item {
+        background-color: black;
+        height: 70vh;
+        padding-top: 20vh;
+    }
+}
+.col-6{
+    margin: auto;
+    color: white;
+}
+.team-img{
+    width: 25%;
+    border-radius: 100%;
+}
 
 
 
