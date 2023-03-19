@@ -1,9 +1,10 @@
-body{
+.head{
     background-image: url("pexels-albin-biju-3831422.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: fit-content;
+
 }
 /* --------------navbar----------------- */
 ul{
@@ -71,65 +72,12 @@ h6{
     content: "Explore >>>";
 }
 /* ---------------------------------------------- */
-@media (max-width: 768px){
-    .second-s {
-        background-color: black;
-        height:50vh;
-        color: rgb(255, 255, 255);
-    }
-}
-@media (min-width: 769px){
-.second-s{
-    background-color: black;
-    height: 60vh;
-    color: rgb(255, 255, 255);
-}
-}
-.wwed-c{
-    padding-top: 20vh;
-    text-align: center;
-    width: 80%;
-}
+
+
 /* ================================== */
-@media (max-width: 768px) {
-.carousel-item{
-background-color:black;
-height: 60vh;
-padding-top: 20vh;
-}
-}
-@media (min-width: 769px) {
-    .carousel-item {
-        background-color: black;
-        height: 90vh;
-        padding-top: 20vh;
-    }
-}
-.col-6{
-    margin: auto;
-    color: white;
-}
-.team-img{
-    width: 40%;
-    border-radius: 100%;
-}
-.team-h{
-    margin-top: 20px;
-}
+
 /* =================== */
 
-.hire-us{
-    color: #9CFF26;
-    height: 50vh;
-    background-color: black;
-    text-align: center;
-    padding-top: 15vh;
-}
-.hire-us p{
-    color: white;
-margin: 0;
-padding: 0;
-}
 
 
 
